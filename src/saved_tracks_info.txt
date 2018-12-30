@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:/Users/liad_/Desktop/spotipy_fix_my_library/saved_tracks_iterator.py", line 14, in <module>
+    output_file.writelines(str(i) + '\t|\t' + str(by_id(track.uri)))
+  File "C:\Users\liad_\AppData\Local\Programs\Python\Python36-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u05e1' in position 0: character maps to <undefined>
